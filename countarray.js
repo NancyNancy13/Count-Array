@@ -1,13 +1,14 @@
 "use strict";
 window.addEventListener("DOMContentLoaded", arrayCount);
 const givenArray = [];
-let counter = 0;
+let counter = -1;
 function arrayCount() {
   // console.log(arrayCount);
   delay();
 }
 function delay() {
   // console.log(delay);
+  counter++;
   if (counter < 100) {
     // show counting
     // console.log(counter);
