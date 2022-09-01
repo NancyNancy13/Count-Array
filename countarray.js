@@ -1,11 +1,9 @@
 "use strict";
 window.addEventListener("DOMContentLoaded", arrayCount);
 const givenArray = [];
-let counter = -1;
+let counter = 0;
 function arrayCount() {
   // console.log(arrayCount);
-  counter++;
-
   delay();
 }
 function delay() {
